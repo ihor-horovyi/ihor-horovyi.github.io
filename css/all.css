@@ -1,15 +1,93 @@
+/******************
+       TAGS
+******************/
 body {
-    font: 14px/1.3em"Open Sans", Arial, Tahoma, sans-serif;
-    background: url(../images/index-background.jpg) repeat-x;;
-    color: #fff;
-    
-    
-    
+    font: 14px/1.3em "Open Sans", Arial, Tahoma, sans-serif;
+    color: #000;
+    height: 100%;  
+}
+a {
+    text-decoration: none;
+}
+article {
+    padding: 10px;
 }
 
-img {
-    width: 240px; 
+/******************
+    INDEX PAGE
+******************/
+
+.center-wrapper {
+    width: 470px;
+    height: 410px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -200px 0 0 -235px;
+
+}
+.profile {
+    text-align: center;
+}
+
+.profile-image {
+    width: 240px;
     height: 240px;
 }
+.profile-background {
+    background-image: url(../images/profile-background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.profile__image-caption {
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 10px 0;
+}
 
+.profile h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    margin: 10px 5;
+}
 
+.profile__description {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.round-image {
+    border-radius: 100%; 
+    box-shadow: 0 0 7px #000; /*****???****/
+}
+
+/*******************
+       Classes
+*******************/
+.redbox {
+    border: 2px solid #f00;
+}
+
+.profile__link {
+    color: #26c17e;
+    font-weight: 600;
+    padding: 10px 20px 10px 20px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
