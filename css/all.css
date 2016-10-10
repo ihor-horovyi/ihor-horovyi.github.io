@@ -41,9 +41,9 @@ article {
     background-attachment: fixed;
     background-size: cover;
 }
-.profile__image-caption {
+.profile-image-caption {
     font-size: 45px;
-    line-height: 40px;
+    line-height: 48px;
     font-weight: 700;
     margin-top: 10px 0;
 }
@@ -62,7 +62,7 @@ article {
 
 .round-image {
     border-radius: 100%; 
-    box-shadow: 0 0 7px #000; /*****???****/
+    box-shadow: 0 0 7px #000;
 }
 
 /*******************
@@ -79,7 +79,7 @@ article {
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -91,3 +91,58 @@ article {
     cursor: pointer;
     border-radius: 8px;
 }
+
+/*******************
+       Sidebar 
+*******************/
+.sidebar {
+    position: fixed;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    margin-left: 100px;
+    left: -100px;
+}
+
+.sidebar-image {
+    text-align: center;
+    padding: 15px 0;    
+}
+
+.sidebar-image img {
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar-image-caption {
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.sidebar-nav li {
+    padding: 20px;
+}
+.sidebar-nav li a{
+    color: #000;
+}
+
+.sidebar-nav li a{
+    color: #000;
+}
+
+.sidebar-footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.sidebar-footer-button {
+    line-height: 70px;
+    padding: 10px;
+}
+
+
+
